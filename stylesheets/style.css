@@ -20,6 +20,7 @@ p {
   line-height: 70px;
   padding: 10px 0 10px 0;
   font-size: 40px;
+  font-weight: lighter;
 }
 .logo-img {
   height: 70px;
@@ -30,7 +31,7 @@ p {
 .navbar {
   height: 30px;
   /*border: 1px solid gray;*/
-  background-color: rgb(42, 173, 228);
+  background-color: rgb(59, 109, 140);
   line-height: 30px;
   margin-bottom: 20px;
 }
@@ -57,23 +58,44 @@ p {
   display: none;
   margin-bottom: 40px;
 }
+.focus-img {
+  width: 40px;
+  float: left;
+  margin-left: 10px;
+}
+.focus-title, .focus-title a {
+  font-weight: bold;
+  font-size: 20px;
+  color: white
+}
 .focus {
   height: 60px;
   background-color: red;
   margin-bottom: 3px;
   color: white;
 }
+.focus p {
+  padding: 8px;
+  float: right;
+  margin: 0;
+}
 #focus1 {
-  background-color: rgb(42, 173, 228);
+  background-color: rgb(115, 178, 217);
 }
 #focus2 {
-  background-color: rgb(0, 104, 196);
+  background-color: rgb(91, 158, 217);
 }
 #focus3 {
   height: 123px;
   background-color: blue;
   color: white;
-  background-color: rgb(0, 75, 141);
+  background-color: rgb(59, 109, 140);
+}
+#focus3 p {
+  padding: 15px 8px 8px 8px;
+  float: right;
+  margin: 0;
+  width: 223px;
 }
 .importants {
   height: 250px;
@@ -84,11 +106,12 @@ p {
   height: 70px;
   margin-bottom: 30px;
   background-color: lightgray;
+  padding: 10px 0 10px 0;
 }
 
 .who {
   text-align: center;
-  background-color: rgb(253, 138, 109);
+  background-color: rgb(191, 75, 75);
   color: white;
   /*border: 1px solid blue;*/
   padding-top: 20px;
@@ -112,10 +135,38 @@ p {
 .locations {
   height: 70px;
   background-color: rgb(42, 173, 228);
+  color: white;
+  padding-top: 20px;
+}
+#locals {
+  font-size: 40px;
 }
 
+.sm {
+  margin-top: 25px;
+  margin-left: 20px;
+}
 
-footer {
+.footer {
   height: 50px;
-  background-color: blue;
+  border-top: 1px solid lightgray;
+  margin-top: 40px;
+  text-align: center;
+}
+.footer ul {
+  margin: 0;
+  /*text-align: center;*/
+  /*word-spacing: 15px;*/
+}
+.footer li {
+  display: inline;
+  /*margin-right: 15px;*/
+}
+.highlight {
+  width: 290px !important;
+  text-align: center;
+}
+.locations p {
+  width: 280px;
+  margin: 0;
 }
