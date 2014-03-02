@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+h4 {
+  font-family: 'helvetica neue'
+}
+body, p, h1, h2, h3, a {
+  font-family: 'helvetica neue'
+}
+a, a:visited {
+  text-decoration: none !important;
+}
+p {
+  margin: 0;
+}
+
+/*   NAVIGATION    */
+.logo {
+  height: 80px;
+  line-height: 70px;
+  padding: 10px 0 10px 0;
+  font-size: 40px;
+}
+.logo-img {
+  height: 70px;
+  float: left;
+  /*margin-right: 10px;*/
+  margin: 5px 10px 5px 0;
+}
+.navbar {
+  height: 30px;
+  /*border: 1px solid gray;*/
+  background-color: rgb(42, 173, 228);
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.navbar ul {
+  margin: 0;
+  text-align: center;
+  /*word-spacing: 15px;*/
+}
+.navbar li {
+  display: inline;
+  margin-right: 15px;
+}
+.navbar li a {
+  color: white;
+}
+
+
+/* CONTENT */
+.main-img {
+  margin-bottom: 30px;
+  width: 100%
+}
+.slides {
+  display: none;
+  margin-bottom: 40px;
+}
+.focus {
+  height: 60px;
+  background-color: red;
+  margin-bottom: 3px;
+  color: white;
+}
+#focus1 {
+  background-color: rgb(42, 173, 228);
+}
+#focus2 {
+  background-color: rgb(0, 104, 196);
+}
+#focus3 {
+  height: 123px;
+  background-color: blue;
+  color: white;
+  background-color: rgb(0, 75, 141);
+}
+.importants {
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.highlights {
+  height: 70px;
+  margin-bottom: 30px;
+  background-color: lightgray;
+}
+
+.who {
+  text-align: center;
+  background-color: rgb(253, 138, 109);
+  color: white;
+  /*border: 1px solid blue;*/
+  padding-top: 20px;
+  padding-bottom: 7px;
+  /*width: 290px !important;*/
+  font-family: 'helvetica neue'
+}
+#who {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 16px;
+}
+#who-name {
+  color: white;
+  font-size: 25px;
+}
+
+.locations {
+  height: 70px;
+  background-color: rgb(42, 173, 228);
+}
+
+
+footer {
+  height: 50px;
+  background-color: blue;
+}
