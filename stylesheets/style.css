@@ -133,13 +133,14 @@ p {
 }
 
 .locations {
-  height: 70px;
-  background-color: rgb(42, 173, 228);
+  background-color: rgb(91, 158, 217);
   color: white;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 #locals {
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .sm {
@@ -169,4 +170,8 @@ p {
 .locations p {
   width: 280px;
   margin: 0;
+}
+.bold-locals {
+  font-weight: bolder;
+  font-size: 18px;
 }
