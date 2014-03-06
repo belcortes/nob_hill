@@ -4,7 +4,12 @@ body {
 h4 {
   font-family: 'helvetica neue'
 }
-body, p, h1, h2, h3, a {
+h3 {
+  font-family: 'helvetica neue' !important;
+  text-align: center;
+  border-bottom: 1px solid lightgray !important;
+}
+body, p, h1, h2, a {
   font-family: 'helvetica neue'
 }
 a, a:visited {
@@ -17,10 +22,11 @@ p {
 /*   NAVIGATION    */
 .logo {
   height: 80px;
-  line-height: 70px;
+  line-height: 80px;
   padding: 10px 0 10px 0;
   font-size: 40px;
   font-weight: lighter;
+  /*color: rgb(59, 109, 140);*/
 }
 .logo-img {
   height: 70px;
@@ -174,4 +180,7 @@ p {
 .bold-locals {
   font-weight: bolder;
   font-size: 18px;
+}
+#pdf {
+  height: 50px;
 }
