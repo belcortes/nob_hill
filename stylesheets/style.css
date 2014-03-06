@@ -53,6 +53,9 @@ p {
 .navbar li a {
   color: white;
 }
+.navbar li a:active {
+  color: red;
+}
 
 
 /* CONTENT */
