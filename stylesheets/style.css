@@ -114,7 +114,8 @@ p {
 .highlights {
   /*height: 70px;*/
   margin-bottom: 30px;
-  background-color: lightgray;
+  /*background-color: lightgray;*/
+  border: 1px solid black;
   padding: 20px 0 20px 0;
 }
 
@@ -216,4 +217,16 @@ p {
 
 .n {
   cursor: pointer;
+}
+
+.rewards li {
+  width: 290px;
+  height: 162px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+.gallery {
+  display: inline-block;
 }
