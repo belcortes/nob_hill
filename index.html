@@ -4,6 +4,7 @@
     <title>NOB HILL ASSOCIATION</title>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src='./javascripts/jquery.slides.min.js'></script>
+    <script type="text/javascript" src='./javascripts/jquery.bxslider.min.js'></script>
     <script type="text/javascript" src='./javascripts/main.js'></script>
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/base.css">
@@ -20,11 +21,11 @@
         <ul>
           <li><a href="./sub_pages/about.html">About</a></li>
             <li><a href="./sub_pages/calendar.html">Calendar</a></li>
-            <li><a href="#">Community Information</a></li>
+            <li><a href="./sub_pages/community.html">Community Information</a></li>
             <li><a href="./sub_pages/huntington.html">Huntington Park</a></li>
-            <li><a href="#">Rewards Program</a></li>
-            <li><a href="#">Notables</a></li>
-            <li><a href="#">Nob Hill News</a></li>
+            <li><a href="./sub_pages/rewards.html">Rewards Program</a></li>
+            <li><a href="./sub_pages/notables.html">Notables</a></li>
+            <li><a href="./sub_pages/gallery.html">Gallery</a></li>
             <li><a href="./sub_pages/join.html">Join</a></li>
             <li><a href="./sub_pages/donate.html">Donate</a></li>
         </ul>
@@ -41,9 +42,9 @@
 
       <div class='importants'>
         <div class='one-third column who'>
-          <span id='who-name'>WHO WE ARE</span>
-          <p id='who'>The Nob Hill Association and the Nob Hill Foundation are non-profit corporations dedicated to the preservation and improvement of the Nob Hill neighborhood and of Huntington Park.</p>
-          <a href="./sub_pages/about.html"><img src="./images/plus2.png"></a>
+          <span id='who-name'>HELP US REBUILD HUNTINGTON PARK!</span>
+          <p id='who'>Join the Nob Hill Association today and support your neighborhood park! Thank you to all who attended the meetings and for your thoughtful feedback.</p>
+          <a href="./sub_pages/huntington.html"><img src="./images/plus3.png"></a>
         </div>
         <div class='one-third column'>
           
@@ -51,51 +52,62 @@
           <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=250&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=nec6d5fvuo53emqtjpefm0cg30%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style=" border-width:0 " width="300" height="250" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class='one-third column'>
-          <div class='focus' id='focus1'>
-            <a href=""> <img style='margin-top: 2%;' class='focus-img' src="./images/Member(1).png"></a>
-            <p><a href=""> <span class='focus-title'> Become a Member</span></a><br>And get your local discounts today!</p></div>
-          <div class='focus' id='focus2'>
-            <a href=""> <img style='margin-top: 4%;' class='focus-img' src="./images/Donor(1).png"></a>
-            <p style='margin-right: 23px;'><a href=""> <span class='focus-title'> Donate</span></a><br>Help us rebuild Huntington Park</p></div>
-          <div id='focus3'>
-            <a href=""> <img style='margin-top: 15%;' class='focus-img' src="./images/Mail(1).png"></a>
-            <p><a href=""> <span class='focus-title'>Monthly Newsletter</span></a><br>Receive a Monthly List of Events, Activities, Helpful Tips, New Businesses and much more!</p></div>
+          <a href=""><div class='focus' id='focus1'>
+            <img style='margin-top: 2%;' class='focus-img' src="./images/Member(1).png">
+            <p> <span class='focus-title'> Become a Member</span><br>And get your local discounts today!</p></div></a>
+          <a href=""><div class='focus' id='focus2'>
+             <img style='margin-top: 4%;' class='focus-img' src="./images/Donor(1).png">
+            <p style='margin-right: 23px;'> <span class='focus-title'> Donate</span><br>Help us rebuild Huntington Park</p></div></a>
+          <a href=""><div id='focus3'>
+             <img style='margin-top: 15%;' class='focus-img' src="./images/Mail(1).png">
+            <p> <span class='focus-title'>Monthly Newsletter</span><br>Receive a Monthly List of Events, Activities, Helpful Tips, New Businesses and much more!</p></div></a>
         </div>
       </div>
 
       <div class='highlights sixteen columns'>
-        <div style='font-size: 30px; text-align: center;' class='row'>HIGHLIGHTS</div>
-        <div class='one-third column highlight'>Fairmont Hotel
-Gingerbread House</div>
-        <div class='one-third column highlight'>Free Tours of Grace Cathedral</div>
-        <div class='one-third column highlight'>Huntington Park
-Fountain</div>
+        <div style='font-size: 30px; text-align: center;' class='row'>NEIGHBORHOOD NEWS</div>
+        <div id='news'>
+          <div class='one-third column highlight'>Grace International Selects San Francisco-Based Puccini Group  to  Reopen Beloved Big 4 Restaurant at The Huntington Hotel
+            Iconic Restaurant atop Nob Hill to Debut Subtle Enhancements in Spring 2014</div>
+          <div class='one-third column highlight'>Walk Score names Nob Hill the 6th most walkable neighborhood in San Francisco!</div>
+          <div class='one-third column highlight'>Grace International Announces $15 Million Renovation of 
+The Huntington Hotel, San Francisco</div>
+          <div class='one-third column highlight'>Iconic Hotel and Big 4 Restaurant to Close from January – May 2014 for Enhancements to Public Spaces, Guestrooms and Suites, and Meeting Facilities</div>
+          <div class='one-third column highlight'>Nob Hill Spa at The Huntington Hotel to Remain Open During Renovation</div>
+        </div>
       </div>
 
       <div class='locations sixteen columns'>
         <div class='row' id='locals'>LOCAL BUSINESSES</div>
-        <div class='one-third column highlight'><p><span class='bold-locals'>SCHOOLS</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p><br><p><span class='bold-locals'>DINING</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p></div>
-        <div class='one-third column highlight'><p><span class='bold-locals'>HOTELS</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p><br><p><span class='bold-locals'>HEALTHCARE</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p></div>
-        <div class='one-third column highlight'><p><span class='bold-locals'>CHILD SERVICES</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p><br><p><span class='bold-locals'>BUSINESS SERVICES</span><br> rsus, magna leo luctus lorem, volutpat pulvinar pellentesque nulla sit amet porta tincidunt. Cum sociis natoque penatibus et</p></div>
+        <div class='one-third column highlight'>
+          <a href=""><img src="./images/ticket.png"><p><span class='bold-locals'>SCHOOLS</span><br><br></p></a>
+          <a href=""><img src="./images/dining.png"><p><span class='bold-locals'>DINING</span><br></p></a>
+        </div>
+        <div class='one-third column highlight'>
+          <a href=""><img src="./images/nightlife.png"><p><span class='bold-locals'>HOTELS</span><br></p></a><br>
+          <a href=""><img src="./images/Untitled-6.png"><p><span class='bold-locals'>HEALTHCARE</span><br></p></a></div>
+        <div class='one-third column highlight'>
+          <a href=""><img src="./images/family.png"><p><span class='bold-locals'>CHILD SERVICES</span><br></p></a><br>
+          <a href=""><img src="./images/shopping.png"><p><span class='bold-locals'>BUSINESS SERVICES</span><br></p></a></div>
       </div>
     </div>
 
     <footer class='footer'>
-      <!-- <div class='container'>
-        <img class='logo-img' src="./images/nob_hill_logo.jpg">
-        <a href="https://www.facebook.com/groups/561105267246173/" target='_blank'><img class='sm' src="./images/fb.png"></a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Send us Info</a></li>
-          <li><a href="">Terms of Use</a></li>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </div> -->
-      <img style='width: 70%;' src="./images/Footer.jpg">
-    </footer>
+        <div class='container'>
+          <img class='logo-img' src="./images/nob_hill_logo.jpg">
+          <a href="https://www.facebook.com/groups/561105267246173/" target='_blank'><img class='sm' src="./images/fb.png"></a>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Send us Info</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <a href="http://www.appallicious.com/" target='_blank'><img class='appa' src="./images/appalogo.jpg"></a> 
+        </div>
+      </footer>
 
   </body>
 </html>

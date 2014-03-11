@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 h4 {
-  font-family: 'helvetica neue'
+  font-family: 'helvetica neue' !important;
 }
 h3 {
   font-family: 'helvetica neue' !important;
@@ -112,15 +112,15 @@ p {
 }
 
 .highlights {
-  height: 70px;
+  /*height: 70px;*/
   margin-bottom: 30px;
   background-color: lightgray;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
 }
 
 .who {
   text-align: center;
-  background-color: rgb(191, 75, 75);
+  background-color: #417F44;
   color: white;
   /*border: 1px solid blue;*/
   padding-top: 20px;
@@ -155,6 +155,7 @@ p {
 .sm {
   margin-top: 25px;
   margin-left: 20px;
+  float: left;
 }
 
 .footer {
@@ -162,15 +163,16 @@ p {
   border-top: 1px solid lightgray;
   margin-top: 40px;
   text-align: center;
+  line-height: 80px;
 }
 .footer ul {
   margin: 0;
-  /*text-align: center;*/
-  /*word-spacing: 15px;*/
+  float: left;
+  margin-left: 90px;
 }
 .footer li {
   display: inline;
-  /*margin-right: 15px;*/
+  margin-right: 10px;
 }
 .highlight {
   width: 290px !important;
@@ -179,11 +181,39 @@ p {
 .locations p {
   width: 280px;
   margin: 0;
+  color: white;
 }
+/*.locations a {
+  color: white;
+}*/
 .bold-locals {
   font-weight: bolder;
   font-size: 18px;
 }
-#pdf {
+.pdf {
   height: 50px;
+  display: inline-block;
+}
+.pdf-text {
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  margin-left: 10px;
+}
+.appa {
+  float: right;
+  height: 20px;
+  margin-top: 30px;
+}
+
+.notables {
+  width: 60px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.n {
+  cursor: pointer;
 }
