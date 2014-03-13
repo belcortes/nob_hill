@@ -229,4 +229,8 @@ p {
 }
 .gallery {
   display: inline-block;
+  height: 200px;
+}
+.pics{
+  display: inline-block;
 }

@@ -1,3 +1,5 @@
+var x = " ";
+
 $(function(){
     $(".slides").slidesjs({
         width: 400,
@@ -32,7 +34,7 @@ $(function(){
       captions: true
     });
 
-    var x = '';
+    
     var success = new PDFObject({ url: "../images/NHA1.pdf" }).embed('notable');
     var success2 = new PDFObject({ url: "../images/form.pdf" }).embed('form');
 
@@ -40,77 +42,114 @@ $(function(){
       
       var n = $(this).attr('id');
       var split = n.slice(2);
-      // console.log(split);
       
-      switch(split) {
-        case 1:
-          x = 1;
-          break;
-        case 2:
-          x = 2;
-          break;
-        case 3:
-          x = 3;
-          break;
-        case 4:
-          x = 4;
-          break;
-        case 5:
-          x = 5;
-          break;
-        case 6:
-          x = 6;
-          break;
-        case 7:
-          x = 7;
-          break;
-        case 8:
-          x = 8;
-          break;
-        case 9:
-          x = 9;
-          break;
-        case 10:
-          x = 10;
-          break;
-        case 11:
-          x = 11;
-          break;
-        case 12:
-          x = 12;
-          break;
-        case 13:
-          x = 13;
-          break;
-        case 14:
-          x = 14;
-          break;
-        case 15:
-          x = 15;
-          break;
-        case 16:
-          x = 16;
-          break;
-        case 17:
-          x = 17;
-          break;
-        case 18:
-          x = 18;
-          break;
-        case 19:
-          x = 19;
-          break;
-        // console.log(x); 
+      if (split == 1) {
+        var success3 = new PDFObject({ url: "../images/NHA1.pdf" }).embed('notable');
+      } else if(split == 2) {
+        var success3 = new PDFObject({ url: "../images/NHA2.pdf" }).embed('notable');
+      } else if(split == 3) {
+        var success3 = new PDFObject({ url: "../images/NHA3.pdf" }).embed('notable');
+      } else if(split == 4) {
+        var success3 = new PDFObject({ url: "../images/NHA4.pdf" }).embed('notable');
+      } else if(split == 5) {
+        var success3 = new PDFObject({ url: "../images/NHA5.pdf" }).embed('notable');
+      } else if(split == 6) {
+        var success3 = new PDFObject({ url: "../images/NHA6.pdf" }).embed('notable');
+      } else if(split == 7) {
+        var success3 = new PDFObject({ url: "../images/NHA7.pdf" }).embed('notable');
+      } else if(split == 8) {
+        var success3 = new PDFObject({ url: "../images/NHA8.pdf" }).embed('notable');
+      } else if(split == 9) {
+        var success3 = new PDFObject({ url: "../images/NHA9.pdf" }).embed('notable');
+      } else if(split == 10) {
+        var success3 = new PDFObject({ url: "../images/NHA10.pdf" }).embed('notable');
+      } else if(split == 11) {
+        var success3 = new PDFObject({ url: "../images/NHA11.pdf" }).embed('notable');
+      } else if(split == 12) {
+        var success3 = new PDFObject({ url: "../images/NHA12.pdf" }).embed('notable');
+      } else if(split == 13) {
+        var success3 = new PDFObject({ url: "../images/NHA13.pdf" }).embed('notable');
+      } else if(split == 14) {
+        var success3 = new PDFObject({ url: "../images/NHA14.pdf" }).embed('notable');
+      } else if(split == 15) {
+        var success3 = new PDFObject({ url: "../images/NHA15.pdf" }).embed('notable');
+      } else if(split == 16) {
+        var success3 = new PDFObject({ url: "../images/NHA16.pdf" }).embed('notable');
+      } else if(split == 17) {
+        var success3 = new PDFObject({ url: "../images/NHA17.pdf" }).embed('notable');
+      } else if(split == 18) {
+        var success3 = new PDFObject({ url: "../images/NHA18.pdf" }).embed('notable');
+      } else if(split == 19) {
+        var success3 = new PDFObject({ url: "../images/NHA19.pdf" }).embed('notable');
       }
-      // console.log(x); 
-      return x;
-      // console.log('hello');
-      // url = ;
-      // 
-      var success = new PDFObject({ url: "../images/NHA"+x+".pdf" }).embed('notable');
-    });
     
+    });
+     
     
     
 });
+
+      // console.log(split);
+
+      // switch(split) {
+      //   case 1:
+      //     success4 = new PDFObject({ url: "../images/NHA1.pdf" }).embed('notable');
+      //     break;
+      //   case 2:
+      //     success4 = new PDFObject({ url: "../images/NHA2.pdf" }).embed('notable');
+      //     break;
+      //   case 3:
+      //     success4 = new PDFObject({ url: "../images/NHA3.pdf" }).embed('notable');
+      //     break;
+      //   case 4:
+      //     success4 = new PDFObject({ url: "../images/NHA4.pdf" }).embed('notable');
+      //     break;
+      //   case 5:
+      //     success4 = new PDFObject({ url: "../images/NHA5.pdf" }).embed('notable');
+      //     break;
+      //   case 6:
+      //     success4 = new PDFObject({ url: "../images/NHA6.pdf" }).embed('notable');
+      //     break;
+      //   case 7:
+      //     success4 = new PDFObject({ url: "../images/NHA7.pdf" }).embed('notable');
+      //     break;
+      //   case 8:
+      //     success4 = new PDFObject({ url: "../images/NHA8.pdf" }).embed('notable');
+      //     break;
+      //   case 9:
+      //     success4 = new PDFObject({ url: "../images/NHA9.pdf" }).embed('notable');
+      //     break;
+      //   case 10:
+      //     success4 = new PDFObject({ url: "../images/NHA10.pdf" }).embed('notable');
+      //     break;
+      //   case 11:
+      //     success4 = new PDFObject({ url: "../images/NHA11.pdf" }).embed('notable');
+      //     break;
+      //   case 12:
+      //     success4 = new PDFObject({ url: "../images/NHA12.pdf" }).embed('notable');
+      //     break;
+      //   case 13:
+      //     success4 = new PDFObject({ url: "../images/NHA13.pdf" }).embed('notable');
+      //     break;
+      //   case 14:
+      //     success4 = new PDFObject({ url: "../images/NHA14.pdf" }).embed('notable');
+      //     break;
+      //   case 15:
+      //     success4 = new PDFObject({ url: "../images/NHA15.pdf" }).embed('notable');
+      //     break;
+      //   case 16:
+      //     success4 = new PDFObject({ url: "../images/NHA16.pdf" }).embed('notable');
+      //     break;
+      //   case 17:
+      //     success4 = new PDFObject({ url: "../images/NHA17.pdf" }).embed('notable');
+      //     break;
+      //   case 18:
+      //     success4 = new PDFObject({ url: "../images/NHA18.pdf" }).embed('notable');
+      //     break;
+      //   case 19:
+      //     success4 = new PDFObject({ url: "../images/NHA19.pdf" }).embed('notable');
+      //     break;
+      // }
+      // return success4;
+      
 
